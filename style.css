@@ -1,6 +1,7 @@
 .logo {
     width: 45px;
     height: 45px;
+    margin-left: 200px;
 }
 
 .nav-item a {
@@ -11,13 +12,16 @@
 .bi-search {
     margin-right: 10px;
 }
-nav{
+
+nav {
     background-color: black;
 }
-.icons{
+
+.icons {
     margin-left: 20px;
 }
-.heading-container{
+
+.heading-container {
     background-color: #02473B;
     color: white;
     flex-direction: column;
@@ -27,15 +31,18 @@ nav{
     padding: 10px;
     font-weight: 700;
 }
-.heading-container p{
+
+.heading-container p {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: larger;
 }
-.heading-container u{
+
+.heading-container u {
     font-size: small
 }
-.flashing-text{
+
+.flashing-text {
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -45,27 +52,66 @@ nav{
     transition: opacity 0s ease;
     font-weight: 600;
 }
-.cover-content{
-    background-color: #3F7F6E;
+.cover-text {
+    margin-top: 200px;
+    font-weight: 700;
+    padding-left: 100px;
 }
-.cover-text{
-    text-align: left;
-margin-top: 200px;
-   font-weight: 700;
-}
-.sidak{
+
+.sidak {
     font-weight: 700;
     font-size: 33px;
 }
-.kirpa{
+
+.kirpa {
     font-size: 20px;
 }
-.papa{
+
+.papa {
     font-weight: 600;
 }
-.mama{
+
+.mama {
     font-weight: 600;
 }
-.bacha{
+
+.bacha {
     font-weight: 600;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 10%;
+    height: auto;
+    display: block;
+}
+
+.overlay-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    margin-left: 1430px;
+    color: white;
+}
+.fullpage-image{
+    position: relative;
+    height: 100vh;
+    width: 200vh;
+}
+.overlay-content h1{
+    font-weight: 700;
+}
+.overlay-content p{
+    font-weight: 500;
+    font-size: 25px;
 }
