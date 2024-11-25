@@ -52,6 +52,7 @@ nav {
     transition: opacity 0s ease;
     font-weight: 600;
 }
+
 .cover-text {
     margin-top: 200px;
     font-weight: 700;
@@ -97,21 +98,56 @@ nav {
     top: 10px;
     left: 10px;
 }
-.overlay-content{
+
+.overlay-content {
     position: absolute;
     top: 50%;
     margin-left: 1430px;
     color: white;
 }
-.fullpage-image{
+
+.fullpage-image {
     position: relative;
     height: 100vh;
     width: 200vh;
 }
-.overlay-content h1{
+
+.overlay-content h1 {
     font-weight: 700;
 }
-.overlay-content p{
+
+.overlay-content p {
     font-weight: 500;
     font-size: 25px;
+}
+
+.modal-text {
+    margin-top: -15px;
+}
+
+.modal-hover {
+    cursor: pointer;
+}
+.footer-heading{
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+ul li{
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+}
+hr{
+    color: white;
+    background: white;
+    border: 2px solid white;
+}
+svg{
+    
+    padding-right: 10px;
+}
+.end-text{
+    /* display: flex; */
+    align-items: end;
+    text-align: right;
 }
